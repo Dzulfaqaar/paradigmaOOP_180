@@ -1,0 +1,18 @@
+#pragma once
+#ifndef ANAK_H
+#define ANAK_H
+#endif // ANAK_H
+
+class anak {
+public:
+	string nama;
+	anak(string pNama) :nama(pNama) {
+		cout << "Anak \"" << nama << "\" ada\n";
+	}
+	~anak() {
+		cout << "Anak \"" << nama << "\" tidsk ada\n";
+	}
+};
+#endif
+
+
