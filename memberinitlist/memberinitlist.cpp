@@ -21,3 +21,6 @@ public:
 	}
 };
 
+int main() {
+	mahasiswa mhs(12, "Lia", 90.5);
+}
